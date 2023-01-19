@@ -1,0 +1,348 @@
+@media screen and (max-width: 1200px) {
+	.name{
+        font-size: 15px; 
+    }
+	.name2{
+        font-size: 15px; 
+	}
+	.copyright{
+		font-size: 14px;
+	}
+}
+.details{
+	font-size: 17px;
+}
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+.footers a {color:#696969;}
+.footers p {color:#696969;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+    color: #3B5998;
+    transition:all .001s;
+}
+#social-tw:hover {
+    color: #4099FF;
+    transition:all .001s;
+}
+#social-gp:hover {
+    color: #d34836;
+    transition:all .001s;
+}
+#social-em:hover {
+    color: #f39c12;
+    transition:all .001s;
+}
+
+body {
+	font: 300 13px/1.6 Roboto, Helvetica, Arial;
+	color: #444;
+	position: relative;
+	background: #33cabb;
+	height: 100vh;
+	text-align: center;
+	/*background: #3f51b5;*/
+
+	background: url('http://ali.shahab.pk/blur.php?img=http://ali.shahab.pk/ali-shahab.jpg&x=250') no-repeat center center;
+	background-size: cover;
+}
+
+
+ul{
+	list-style: none;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	border: 0;
+}
+
+.profile-card{
+	width: 100%;
+	border-radius: 2px;
+	overflow: hidden;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	position: relative;
+	margin: auto;
+	background: rgba(255,255,255,1);
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+.profile-card header{
+	display: block;
+	position: relative;
+	background: rgba(255,255,255,1);
+	text-align: center;
+	padding: 30px 0 20px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.profile-card header:before{
+	content: "";
+	position: absolute;
+	background: url('http://ali.shahab.pk/blur.php?img=http://ali.shahab.pk/ali-shahab.jpg&x=60') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	
+}
+
+.profile-card header:after{
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+
+.profile-card header img{
+	border-radius: 100%;
+	overflow: hidden;
+	width: 130px;
+	/*border: 1px solid rgba(255,255,255,.5);*/
+	box-shadow: 0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.1);
+}
+
+.profile-card header h3{
+	font-weight: 100;
+	color: rgb(31, 25, 66);
+	letter-spacing: -2px;
+	margin: 0;
+	padding: 0;
+}
+
+.profile-card header h4{
+	font-weight: bold;
+	font-size: 14px;
+	color: #666;
+	letter-spacing: .5px;
+	margin: 0;
+	padding: 0;
+}
+
+.profile-card .profile-bio{
+	padding: 0 30px;
+	text-align: center;
+	color: #888;
+}
+
+.profile-card .profile-social-links{
+	display: table;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.profile-card .profile-social-links li{
+	display: table-cell;
+	width: 33.3333333333333333%
+}
+
+.profile-card .profile-social-links li a{
+	display: block;
+	text-align: center;
+	padding: 10px;
+	margin: 0 10px;
+	border-radius: 100%;
+	-webkit-transition: box-shadow 0.2s;
+	-moz-transition: box-shadow 0.2s;
+	-o-transition: box-shadow 0.2s;
+	transition: box-shadow 0.2s;
+}
+.profile-card .profile-social-links li a:hover{
+	box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+}
+
+.profile-card .profile-social-links li a:active{
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.profile-card .profile-social-links li a img{
+	width: 100%;
+	display: block;
+}
+.underline-small{
+	position: relative;
+}
+.underline-small::after{
+
+	content:"";
+    height: 4px;
+	width: 20%;
+	background-color:#33cabb;
+	position: absolute;
+	left: 0;
+	bottom:-5px;
+}
+
+.underline-big{
+	position: relative;
+}
+.underline-big::after{
+
+	content:"";
+    height: 4px;
+	width: 50%;
+	background-color:#33cabb;
+	position: absolute;
+	left: 0;
+	bottom:-8px;
+}
+.HOD{
+	text-align: left;
+	padding-left: 30px;
+}
+.HOD h5{
+	font-weight: bold;
+}
+.row{
+	text-align: left;
+}
+.h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 70px;
+}
+.h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: #33cabb;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+.carousel .carousel-item {
+	color: #999;
+	overflow: hidden;
+	min-height: 120px;
+	font-size: 13px;
+}
+.carousel .media img {
+	width: 80px;
+	height: 80px;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 0 15px 0 60px ;
+	position: relative;
+}
+.carousel .testimonial::before {
+	content: "\201C";
+	font-family: Arial,sans-serif;
+	color: #e2e2e2;
+	font-weight: bold;
+	font-size: 68px;
+	line-height: 54px;
+	position: absolute;
+	left: 15px;
+	top: 0;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color:  #33cabb;
+}
+.overview{
+	padding-top: -20px;
+}
+.carousel .main {
+	bottom: -40px;
+}
+.main li, .main li.active {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 1px 3px;
+	box-sizing: border-box;
+}
+.main li {	
+	background: #e2e2e2;
+	border: 4px solid #fff;
+}
+.main li.active {
+	color: #fff;
+	background: #33cabb;    
+	border: 5px double;    
+}
+.container-fluid {
+	padding-bottom: 30px;
+
+}
+.fa-linkedin-square{
+	font-size: 20px;
+}
+.team{
+	font-variant:small-caps;
+	font-size: large;
+	padding-bottom: 1px;
+}
+.adminlogin{
+		font-size: 20px;
+		font-variant:small-caps;
+		Border : 1px solid rgb(124, 124, 124);
+		text-align: center;
+		background-color: #eaebeb;
+		
+}
+.md-form {
+	padding-bottom: 20px;
+}
+.nav-item{
+	Border : 1px solid rgb(124, 124, 124);
+}
+.nav-link{
+	color:rgb(148, 148, 148);
+}
+.button{
+	Border : 1px solid rgb(124, 124, 124); 
+}
+.nav-item :hover{
+	background-color: #33cabb;
+	color: white; 
+}
+.nav-justified{
+	padding-bottom: 20px;
+}
+.hover:hover{
+	background-color: #33cabb;
+	color: #fff;
+}
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 40px;
+	background: #33cabb url("img/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+a:hover.back-to-top {
+	background-color: #000;
+}
